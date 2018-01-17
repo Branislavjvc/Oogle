@@ -1,0 +1,60 @@
+#OogleText
+{
+  font-size: 56px;
+  width: 270px;
+  margin: 0 auto;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+#formSearch
+{
+  font-size: 24px;
+  padding-top: 23px;
+
+}
+
+#searchRow
+{
+  width: 335px;
+  height: 55px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+#bk
+{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#searchBtn
+{
+  margin: 22px 0px 0px 0px;
+
+}
+
+#topRow
+{
+
+}
+
+#FooterDiv
+{
+  position: absolute;
+  bottom: 0px;
+}
+
+#visitedLinks
+{
+  width:480px;
+  padding-left: 110px;
+}
+
+#GoogleImage
+{
+  padding-left: 435px;
+  margin: 0 auto;
+}
