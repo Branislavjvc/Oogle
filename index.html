@@ -8,55 +8,91 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
   </HEAD>
   <BODY>
 
       <!--Header-->
-    <div class="container-fluid" style="height:32px">
-      <div id="topRow" class="col-xs-4">
-        <p style="display:inline">Top row</p>
-        <button>BtnContainer</button>
-        <!--Position:right-edge, contain multiple buttons-->
+      <!--
+    <div class="container-fluid" style="">
+      <div id="topRow" class="row">
+        <p><a href="google.com">Gmail</a></p>
+        <p style="padding:0px 5px 0px 5px"><a href="https://www.google.hr/imghp">Images</a></p>
+        <p><img style="padding-left:5px" src="options.png"></p>
+      </div>
+    </div>
+  -->
+
+    <div class="container-fluid">
+      <div id="topRow" class="row">
+        <div class="col-xs-4" style="padding-right:10px">
+          <p style="display:inline"><a href="google.com">Gmail</a></p>
+        </div>
+        <div class="col-xs-4" style="padding-right:10px">
+          <p style="display:inline padding:0px 5px 0px 5px"><a href="https://www.google.hr/imghp">Images</a></p>
+        </div>
+        <div class="col-xs-4" style="padding-right:10px">
+          <p><img style="display:inline padding-left:5px" src="options.png"></p>
+        </div>
       </div>
     </div>
 
-  <!--Oogle Text-->
-    <div id="bk" class="container-fluid" style="">
-      <div id="CenteredElements" class="col-xs-4">
-        <div id="GoogleImage">
-        <img src="Image.png">
+
+  <!--Google Image-->
+    <div id="bk" class="container" style="">
+
+        <div class="col-xs-12" style="">
+        <img id="imgGoogle" src="https://www.google.hr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
       </div>
 
             <!--Searchbar-->
-      <div id="OOgleAndSearch" class="container">
+
         <div id="searchRow" class="row">
-          <div id="formSearch" style="font-size:20px">
+          <div class="col-xs-8" id="formDiv">
             <form>
-              <input type="text" name="search">
+              <input id="formText" type="text" name="search" style="width:580px">
             </form>
           </div>
-          <div style="display:inline">
-            <button id="searchBtn" type="button" class="btn btn-primary">Search</button>
+          <div class="col-xs-4" style="">
+          <div>
+            <img src="VoiceSearch.png" width="32" height="32" style="margin-top: 25px">
           </div>
+
+
         </div>
       </div>
-    </div>
+
   </div>
 
   <!--Footer-->
-    <div id="FooterDiv" class="container-fluid">
-      <div class="row">
-        <div clas="col-lg-12">
-          <p>Abc
-          </p>
-        </div>
-        <div class="col-xs-6">
-        <p><a href="https://github.com/Branislavjvc">Credits</a>
-        </p>
+
+<div class="container-fluid" style="padding-top:280px">
+  <div class="row" style="float:left">
+
+    <div class="col-xs-2" style="padding:0px 10px 0px 20px">
+      <p style="display:inline"><a href="#">Advertising</a></p>
+    </div>
+    <div class="col-xs-2" style="padding-right:10px">
+      <p style="display:inline padding:0px 5px 0px 5px"><a href="#">Business</a></p>
+    </div>
+    <div class="col-xs-2" style="padding-right:10px">
+      <p><img style="display:inline padding-left:5px"><a href="#">About</a></p>
+    </div>
+  </div>
+
+<div class="row" style="float:right">
+    <div class="col-xs-2" style="padding-right:10px">
+      <p style="display:inline"><a href="#">Privacy</a></p>
+    </div>
+    <div class="col-xs-2" style="padding-right:10px">
+      <p style="display:inline padding:0px 5px 0px 5px"><a href="#">Terms</a></p>
+    </div>
+    <div class="col-xs-2" style="padding-right:20px">
+      <p><img style="display:inline padding-left: 5px"><a href="#">Settings</a></p>
+    </div>
+  </div>
 </div>
 
-      </div>
-    </div>
 
   </BODY>
 
