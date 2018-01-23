@@ -1,1 +1,1 @@
-A basic Google clone; assignment from theodinproject.org
+A basic Google clone; assignment from theodinproject.com
