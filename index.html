@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<HTML lang="en">
-  <HEAD>
+<html lang="en">
+  <head>
     <TITLE>Oogle</TITLE>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
     <!-- Google's favicon -->
     <link rel="shortcut icon" href="https://www.google.com/s2/favicons?domain=www.google.com" />
-  </HEAD>
-  <BODY>
+  </head>
+  <body>
     
     <!--Header-->
     <div class="container-fluid">
@@ -36,57 +36,57 @@
         <img id="imgGoogle" src="https://www.google.hr/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
       </div>
 
+  <div id="searchDiv" class="col-xs-12">
       <!--Searchbar-->
+		<form role="search" method="get" id="searchform" class="searchform" action="http://www.google.com/search?hl=en-GB&source=hp&q=">
 
-      <div id="searchRow" class="row">
-        <div class="col-xs-6">
-          <form action="http://www.google.com/search" method="get">
-            <input type="hidden" name="q" value="site:http://google.com">
-            <input type="text" name="q" alt="search" style="width:400px">
-            <input type="submit" value="Search" class="btn btn-primary">
-          </form>
-        </div>
-        <!--Voice Search-->
-        <div class="col-xs-6">
-          <a href="#">
+  <label for="s"></label>
+  <input type="text" value="" name="q" id="s">
+  <input type="submit" value="Search" class="btn btn-primary">	
+  <!--Voice Search-->
+  <a href="#">
             <img src="VoiceSearch.png" width="32" height="32">
           </a>
-        </div>
+</div>
+</form>
       </div>
 
 
     </div>
 
     <!--Footer-->
+<footer>
+    <div class="container-fluid">
+      <div class="row">
 
-    <div class="container-fluid" style="padding-top:160px">
-      <div class="row" style="float:left">
-
-        <div class="col-xs-2" style="padding:0px 10px 0px 20px">
-          <p style="display:inline"><a href="#">Advertising</a></p>
+        <div id="divOptionsLeft" class="row">
+        <div class="col-xs-2">
+          <p><a href="#">Advertising</a></p>
         </div>
-        <div class="col-xs-2" style="padding-right:10px">
-          <p style="display:inline padding:0px 5px 0px 5px"><a href="#">Business</a></p>
+        <div class="col-xs-2">
+          <p><a href="#">Business</a></p>
         </div>
-        <div class="col-xs-2" style="padding-right:10px">
-          <p><img style="display:inline padding-left:5px"><a href="#">About</a></p>
+        <div class="col-xs-2">
+          <p><img><a href="#">About</a></p>
         </div>
       </div>
 
-      <div class="row" style="float:right">
-        <div class="col-xs-2" style="padding-right:10px">
-          <p style="display:inline"><a href="#">Privacy</a></p>
+      <div id="divOptionsRight" class="row">
+        <div class="col-xs-2">
+          <p><a href="#">Privacy</a></p>
         </div>
-        <div class="col-xs-2" style="padding-right:10px">
-          <p style="display:inline padding:0px 5px 0px 5px"><a href="#">Terms</a></p>
+        <div class="col-xs-2">
+          <p><a href="#">Terms</a></p>
         </div>
-        <div class="col-xs-2" style="padding-right:20px">
-          <p><img style="display:inline padding-left: 5px"><a href="#">Settings</a></p>
+        <div class="col-xs-2">
+          <p><img><a href="#">Settings</a></p>
         </div>
       </div>
     </div>
+	</div>
+	<footer>
 
+<script src="js.js"></script>
+  </body>
 
-  </BODY>
-
-</HTML>
+</html>
